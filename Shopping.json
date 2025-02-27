@@ -1,0 +1,214 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Mouse",
+            "price": 25.99,
+            "category": "Electronics",
+            "stock": 120
+        },
+        {
+            "id": 2,
+            "name": "Bluetooth Headphones",
+            "price": 59.99,
+            "category": "Electronics",
+            "stock": 85
+        },
+        {
+            "id": 3,
+            "name": "Gaming Keyboard",
+            "price": 45.50,
+            "category": "Electronics",
+            "stock": 60
+        },
+        {
+            "id": 4,
+            "name": "Smartphone Case",
+            "price": 12.99,
+            "category": "Accessories",
+            "stock": 150
+        },
+        {
+            "id": 5,
+            "name": "Portable Charger",
+            "price": 19.99,
+            "category": "Accessories",
+            "stock": 110
+        },
+        {
+            "id": 6,
+            "name": "Smartwatch",
+            "price": 120.00,
+            "category": "Wearable",
+            "stock": 75
+        },
+        {
+            "id": 7,
+            "name": "Laptop Stand",
+            "price": 34.99,
+            "category": "Office",
+            "stock": 90
+        },
+        {
+            "id": 8,
+            "name": "USB-C Cable",
+            "price": 9.99,
+            "category": "Electronics",
+            "stock": 200
+        },
+        {
+            "id": 9,
+            "name": "Desk Organizer",
+            "price": 14.99,
+            "category": "Office",
+            "stock": 130
+        },
+        {
+            "id": 10,
+            "name": "Water Bottle",
+            "price": 10.99,
+            "category": "Lifestyle",
+            "stock": 175
+        },
+        {
+            "id": 11,
+            "name": "Running Shoes",
+            "price": 75.00,
+            "category": "Sports",
+            "stock": 95
+        },
+        {
+            "id": 12,
+            "name": "Yoga Mat",
+            "price": 20.00,
+            "category": "Fitness",
+            "stock": 80
+        },
+        {
+            "id": 13,
+            "name": "Wireless Charger",
+            "price": 29.99,
+            "category": "Electronics",
+            "stock": 100
+        },
+        {
+            "id": 14,
+            "name": "Action Camera",
+            "price": 150.00,
+            "category": "Photography",
+            "stock": 50
+        },
+        {
+            "id": 15,
+            "name": "Tripod Stand",
+            "price": 22.50,
+            "category": "Photography",
+            "stock": 70
+        },
+        {
+            "id": 16,
+            "name": "Backpack",
+            "price": 45.00,
+            "category": "Travel",
+            "stock": 120
+        },
+        {
+            "id": 17,
+            "name": "Sunglasses",
+            "price": 35.00,
+            "category": "Fashion",
+            "stock": 140
+        },
+        {
+            "id": 18,
+            "name": "Power Bank",
+            "price": 29.50,
+            "category": "Accessories",
+            "stock": 95
+        },
+        {
+            "id": 19,
+            "name": "Smart Light Bulb",
+            "price": 18.00,
+            "category": "Home",
+            "stock": 125
+        },
+        {
+            "id": 20,
+            "name": "Coffee Maker",
+            "price": 85.00,
+            "category": "Appliances",
+            "stock": 60
+        },
+        {
+            "id": 21,
+            "name": "Wireless Speaker",
+            "price": 49.99,
+            "category": "Electronics",
+            "stock": 75
+        },
+        {
+            "id": 22,
+            "name": "Digital Alarm Clock",
+            "price": 16.50,
+            "category": "Home",
+            "stock": 110
+        },
+        {
+            "id": 23,
+            "name": "Electric Toothbrush",
+            "price": 32.00,
+            "category": "Personal Care",
+            "stock": 90
+        },
+        {
+            "id": 24,
+            "name": "Face Mask",
+            "price": 8.99,
+            "category": "Health",
+            "stock": 150
+        },
+        {
+            "id": 25,
+            "name": "Hand Sanitizer",
+            "price": 3.99,
+            "category": "Health",
+            "stock": 180
+        },
+        {
+            "id": 26,
+            "name": "Notebook",
+            "price": 5.50,
+            "category": "Stationery",
+            "stock": 200
+        },
+        {
+            "id": 27,
+            "name": "Ballpoint Pens",
+            "price": 4.99,
+            "category": "Stationery",
+            "stock": 250
+        },
+        {
+            "id": 28,
+            "name": "Wireless Earbuds",
+            "price": 39.99,
+            "category": "Electronics",
+            "stock": 85
+        },
+        {
+            "id": 29,
+            "name": "Smart Thermostat",
+            "price": 120.00,
+            "category": "Home",
+            "stock": 45
+        },
+        {
+            "id": 30,
+            "name": "Hair Dryer",
+            "price": 28.99,
+            "category": "Appliances",
+            "stock": 75
+        }
+    ]
+}

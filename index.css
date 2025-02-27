@@ -1,0 +1,374 @@
+.navbar {
+  position: fixed;
+  background-color: chocolate;
+  width: 100vw;
+  padding: 10px 20px;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 10px;
+
+}
+
+.nav-button {
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #0056b3;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #003f7f;
+}
+
+.sidebar {
+  background-color: brown;
+  height: 100vh;
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+
+.bars {
+  margin: 10px;
+  color: whitesmoke;
+  background-color: brown;
+  cursor: pointer;
+  height: 30px;
+  width: 90%;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  border-bottom: 4px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.bars:hover {
+  background-color: #003f7f;
+}
+
+.Movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.indi {
+  background: #1e1e1e;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.indi:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+.yohonita {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14%;
+  height: 100%;
+  border: 1px solid black;
+  gap: 10px;
+  background-color: burlywood;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  left: 250px;
+  top: 10px;
+}
+
+
+.vitrako {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, blue 50%, red 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: background-position 0.1s linear, scale 0.2s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.vitrako:hover {
+  background-position: left;
+  scale: 1.05;
+  box-shadow: 4px 4px 6px rgba(128, 0, 0, 0.5);
+}
+
+.deletion {
+  z-index: 100;
+  border: none;
+  transform: translateX(-0px);
+  border: hidden;
+  cursor: pointer;
+}
+
+.inptt {
+  border-color: transparent;
+  border: 3px solid black;
+  border-right: 20px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  width: 150px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.smul {
+  font-size: larger;
+  border: 3px solid maroon;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.smul:hover {
+  scale: 1.03;
+}
+
+.closing {
+  border-radius: 30px;
+  padding: 10px;
+  position: absolute;
+  top: 0%;
+  align-self: normal;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100vh;
+  padding: 20px;
+  gap: 20px;
+}
+
+
+.balances {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.byutton {
+  height: 30px;
+  width: 170px;
+}
+
+.reality {
+  padding: 15px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.reality:hover {
+  scale: 1.05;
+}
+
+.left-square,
+.right-square {
+  border: 1px solid black;
+  height: 25px;
+  width: 35px;
+  justify-content: center;
+}
+
+body {
+  height: 92vh;
+}
+
+.cart-navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  border: 3px solid black;
+  background-color: black;
+  height: 52px;
+  justify-content: space-around;
+  border-bottom: 1px solid whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1000;
+
+}
+
+.cart-button {
+  min-width: 20px;
+  margin: 2px;
+  size: 20px;
+  border-radius: 10px;
+  border: 0px solid black;
+  cursor: pointer;
+  background-color: black;
+  color: whitesmoke;
+  padding: 8px;
+}
+
+.cart-button:hover {
+  scale: 1.05;
+  color: salmon;
+
+}
+
+.cart-elements {
+  color: white;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.Shop-button {
+  border-radius: 20px;
+  background-color: green;
+  align-self: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+  position: absolute;
+  top: 1px;
+  right: 2px;
+}
+
+.Shop-button:hover {
+  cursor: pointer;
+  scale: 1.01;
+  color: maroon;
+  background-color: greenyellow;
+}
+
+.cart-about {
+  color: whitesmoke;
+}
+
+.cart-home {
+  color: magenta;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.cart-item {
+  color: whitesmoke;
+  background-color: crimson;
+  border: 1px solid aquamarine;
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  font-size: 30px;
+  position: relative;
+
+}
+
+.cart-item:hover {
+  scale: 1.05;
+}
+
+.cart-products {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.individual-categories {
+  padding: 10px;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: crimson;
+  background-color: #161748;
+  border-radius: 20px;
+  border: none;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.individual-categories:hover {
+  scale: 1.05;
+}
+
+.cluster-chart {
+  display: grid;
+  place-items: center;
+  height: 92vh;
+}
+
+.chart-class {
+  padding: 5px;
+  border: 10px solid black;
+  margin: 10px;
+  border-right: 0px;
+  border-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px 10px;
+  width: 500px;
+  height: 400px;
+  height: 100%;
+}
